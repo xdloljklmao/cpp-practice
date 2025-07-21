@@ -21,3 +21,30 @@ int main()
 
     return 0;
 }
+/*wrote the following code on my own again for practice:
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main(){
+    
+    int n;
+    cout<<"Number of elements to be inputed: ";
+    cin>>n;
+    
+    vector<int> v(n);
+    
+    cout<<"\nEnter the elements: ";
+    for(int i=0;i<n;i++){
+        cin>>v[i];
+    }
+    
+    cout<<"\nArray you entered: ";
+    for(int i=0;i<n;i++){
+        cout<<v[i]<<" ";
+    }
+    return 0;
+    
+}
+*/
